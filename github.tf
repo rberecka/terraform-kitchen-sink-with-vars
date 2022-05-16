@@ -7,9 +7,9 @@ data "github_organization" "hashicorp" {
 }
 
 data "github_user" "current" {
-  username = ""
+  username = "rberecka"
 }
 
 data "github_repository" "terraform" {
-  full_name = "hashicorp/terraform"
+  full_name = "rberecka/terraform-kitchen-sink-with-vars"
 }

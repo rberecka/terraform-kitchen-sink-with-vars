@@ -20,5 +20,5 @@ variable "ec2_instance_type" {
 variable "s3_website_bucket" {
   description = "The bucket name for your S3 website."
   type        = string
-  default     = "terraform-kitchen-sink-example"
+  default     = "terraform-kitchen-sink-example-rberecka"
 }
